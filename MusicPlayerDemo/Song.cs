@@ -37,10 +37,10 @@ namespace MusicPlayerDemo
 
         public Song (string album, string title, string description, string genre)
         {
-            Album = album;
-            Title = title;
-            Description = description;
-            Genre = genre;
+            _album = album;
+            _title = title;
+            _description = description;
+            _genre = genre;
         }
 
         public double getAmount(double amount)
